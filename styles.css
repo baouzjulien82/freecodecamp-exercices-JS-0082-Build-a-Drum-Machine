@@ -24,7 +24,7 @@ body {
 #drum-machine{
   width: 350px;
   height: 450px;
-  margin: 30% auto;
+  margin: 5% auto;
   background-color: var(--couleur-de-la-boite);
   border-radius: 8px;
 }
