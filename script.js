@@ -3,6 +3,7 @@ const touches = document.querySelectorAll('.drum-pad');
 touches.forEach(touche => {
   touche.addEventListener('click', () => {
     const audio = touche.querySelector('audio');
+    // initialise la piste à 0 avant de la jouer
     audio.currentTime = 0;
     audio.play();
     document.getElementById('display').textContent = touche.id;
